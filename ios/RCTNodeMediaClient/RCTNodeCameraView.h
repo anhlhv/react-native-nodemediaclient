@@ -23,6 +23,7 @@
 @property (nonatomic, copy) RCTBubblingEventBlock onChange;
 
 @property (nonatomic) BOOL flashEnable;
+@property (nonatomic) NSInteger zoomScale;
 
 -(int)startprev;
 -(int)stopprev;
